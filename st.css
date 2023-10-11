@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2f1893;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 890px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    line-height: 31.25px;
+    text-align: center;
+    letter-spacing: -0.29px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 26px;
+}
+
+.purchase-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background-color: #e93a7d;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    margin: 0 78px;
+    align-items: center;
+    gap: 170px;
+}
+
+.content-desc {
+    width: 427px;
+    height: 496px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content-desc h2 {
+    font-size: 58px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.content-desc h5 {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 32px;
+    color: #fff;
+}
+
+.content-desc button {
+    width: 157px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    line-height: 26px;
+    background-color: #e93a7d;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.sign-up-form {
+    border-radius: 6px;
+    width: 470px;
+    height: 600px;
+    background-color: #fff;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.sign-up-form h3 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #1e0e62;
+    margin-top: 30px;
+}
+
+.input {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 0.5px solid rgb(189, 188, 188);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.checkbox-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=checkbox] {
+    accent-color: #25DAC5;
+    color: #1e0e62;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.agree {
+    color: rgb(139, 138, 138);
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sign-in-button {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #482be7;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hl {
+    width: 141.57px;
+    height: 2px;
+    color: #ebeaed;
+}
+
+.or p {
+    color: rgb(139, 138, 138);
+}
+
+.twitter-button {
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option {
+    display: flex;
+    gap: 10px;
+}
+
+.option p {
+    color: rgb(139, 138, 138);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.option a {
+    text-decoration: none;
+    color: #25DAC5;
+    font-family: 'DM Sans', sans-serif;
+}
